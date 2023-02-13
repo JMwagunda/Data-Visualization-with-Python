@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.title("VIOLIN PLOT FOR LIFE EXPECTANCY,POPULATION AND GDPPERCAP WITH STREAMLIT")
 st.subheader('JUDD MARC WAGUNDA')
 st.subheader('SCT211-0744/2021')
-st.subheader('ICS 2207 ASSIGNMENT II')
+st.subheader('ICS 2207 ASSIGNMENT')
 
 #Read data from my_data csv file
 data = pd.read_csv("my_data.csv")
