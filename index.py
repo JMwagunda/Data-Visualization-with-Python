@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 data = pd.read_csv("my_data.csv")
 data_2007 = data[data['year'] ==2007]
 
-df = pd.Dataframe(data)
+df = pd.DataFrame(data)
 
 #Function to plot the violin plots
 def violinplots(df):
